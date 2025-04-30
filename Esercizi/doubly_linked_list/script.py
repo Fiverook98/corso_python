@@ -118,7 +118,7 @@ class DoublyLinkedList:
       current_node = current_node.get_next_node()
     return string_list
 
-# Create your subway line here:
+
 subway = DoublyLinkedList()
 subway.add_to_head("Times Square")
 subway.add_to_head("Grand Central")
